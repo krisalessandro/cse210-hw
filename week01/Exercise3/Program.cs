@@ -6,7 +6,7 @@ class Program
     {
         int guess, attempt=1;
         Random randomGenerator = new Random();
-        int MagicNumber = randomGenerator.Next(1, 10);
+        int MagicNumber = randomGenerator.Next(1, 100);
         do
         {
             Console.Write("What is the magic number? ");
